@@ -15,6 +15,6 @@ public class TeknologiApplication {
 
     @GetMapping("/")
     public String hello(){
-        return "HTTPS virker - nu også med ci/cd";
+        return "HTTPS virker";
     }
 }
